@@ -3,6 +3,7 @@
 @media screen and (max-width: 900px) {
   html{
     overflow-y: hidden !important;
+    overflow-x: hidden !important;
   }
   h1{
     font-size: 40px !important ;
