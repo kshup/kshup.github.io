@@ -2,14 +2,16 @@
 
 function decodeText(){
     var text = document.getElementsByClassName('decode-text')[0];
-  
+    
+
+    
     var state = [];
     for(var i = 0, j = text.children.length; i < j; i++ ){
         text.children[i].classList.remove('state-1','state-2','state-3');
         state[i] = i;
     }
 
-  
+    
     var shuffled = shuffle(state);
  
     for(var i = 0, j = shuffled.length; i < j; i++ ){
@@ -32,13 +34,13 @@ function firstStages(child){
         child.classList.add('state-2')
     } else if( !child.classList.contains('state-1') ){
         child.classList.add('state-1');
-        setTimeout(secondStages.bind(null, child), 100);
+        setTimeout(secondStages.bind(null, child), 25);
     }    
 }
 function secondStages(child){
     if( child.classList.contains('state-1') ){
         child.classList.add('state-2')
-        setTimeout(thirdStages.bind(null, child), 100);
+        setTimeout(thirdStages.bind(null, child), 25);
     } 
     else if( !child.classList.contains('state-1') )
     {
@@ -56,11 +58,11 @@ function shuffle(array) {
 
     
     while (0 !== currentIndex) {
-       
+        
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
 
-        
+       
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
@@ -71,5 +73,8 @@ function shuffle(array) {
 
 
 decodeText();
+
+
+setInterval(function(){ decodeText(); }, 10000);
 
 
