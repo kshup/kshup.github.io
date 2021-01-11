@@ -44,7 +44,7 @@ body{
    display: flex;
    transform: rotate(-10deg) skew(25deg);
    transform-style: preserve-3d;
-   margin-left: 30px;
+   margin-left: 20px;
 }
 ul li {
   position: relative;
