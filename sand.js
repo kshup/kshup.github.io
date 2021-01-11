@@ -61,7 +61,8 @@ class TextScramble {
     'Cyber Security',
     'Researcher',
     'and',
-    'Web Developer'
+    'Web Developer',
+    'and'
   ]
   
   const el = document.querySelector('.text')
