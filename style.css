@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100');
 @media screen and (max-width: 900px) {
   html{
-    overflow-y: hidden !important;
-    overflow-x: hidden !important;
+    overflow: hidden !important;
   }
   h1{
     font-size: 40px !important ;
@@ -22,6 +21,17 @@
 
   .text{
     margin-bottom: 70px !important;
+  }
+  .decode-text {
+    width: 400px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    margin-left: 100px !important;
+    
+  }
+  .space {
+    display: inline-block;
+    width: 10px;
   }
 
 
