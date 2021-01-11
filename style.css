@@ -33,7 +33,18 @@
     display: inline-block;
     width: 10px;
   }
+.text-animation.state-3 {
+    color: #21c03c !important;
+  }
+  .text-animation:before {
 
+    background: #d4d1d1 !important;
+    
+  }
+  .decode-text {
+    margin-bottom: 80px !important;
+
+  }
 
 }
 
