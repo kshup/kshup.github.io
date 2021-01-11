@@ -44,7 +44,7 @@ body{
    display: flex;
    transform: rotate(-0deg) skew(5deg);
    transform-style: preserve-3d;
-   margin-left: 20px;
+  
 }
 ul li {
   position: relative;
@@ -127,6 +127,9 @@ ul li:nth-child(3):hover span{
 ul li:nth-child(4):hover span{
   background: #2867B2 !important;
 }
+ul li:nth-child(5):hover span{
+  background: #a00404 !important;
+}
 
 #SocialMedia{
     width: 600px;
@@ -161,4 +164,54 @@ ul li:nth-child(4):hover span{
 }
 .dud {
   color: #21c03c;
+}
+
+
+
+.decode-text {
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.space {
+  display: inline-block;
+  width: 10px;
+}
+.text-animation {
+  display: inline-block;
+  position: relative;
+  color: transparent;
+  text-transform: uppercase;
+}
+.text-animation:before {
+  content: '';
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #21c03c;
+  width: 0;
+  height: 1.2em;
+  -webkit-transform: translate(-50%, -55%);
+  -ms-transform: translate(-50%, -55%);
+  transform: translate(-50%, -55%);
+}
+.text-animation.state-1:before {
+  width: 1px;
+}
+.text-animation.state-2:before {
+  width: 0.9em;
+}
+.text-animation.state-3 {
+  color: white;
+}
+.text-animation.state-3:before {
+  width: 0;
+}
+#refresh {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
 }
