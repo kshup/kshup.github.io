@@ -52,12 +52,10 @@
   
   #SocialMedia{
     width: 500px !important;
-    margin-right: 30px;
+    margin-right: 35px;
   }
 }
-.social {
-  margin-left: 200px !important;
-}
+
 
 html { 
   overflow-y: hidden !important;
