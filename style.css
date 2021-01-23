@@ -96,7 +96,6 @@ body{
    display: flex;
    transform: rotate(-0deg) skew(5deg);
    transform-style: preserve-3d;
-   left: 30px;
   
 }
 ul li {
@@ -194,7 +193,7 @@ ul li:nth-child(5):hover span{
 .social{
     position: relative;
     top: 100%;
-    left: 35px;
+    left: 535px;
 }
 #textBody {
     text-align: center;
@@ -269,10 +268,6 @@ ul li:nth-child(5):hover span{
   left: 20px;
   cursor: pointer;
 }
-
-
-
-
 
 
 
