@@ -55,6 +55,9 @@
     margin-right: 30px;
   }
 }
+.social {
+  margin-left: 30px !important;
+}
 
 html { 
   overflow-y: hidden !important;
