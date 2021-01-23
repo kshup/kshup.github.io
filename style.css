@@ -29,7 +29,7 @@
     width: 400px !important;
     font-size: 20px !important;
     text-align: center !important;
-    margin-left: 100px !important;
+    margin-left: 75px !important;
     margin-bottom: 75px !important;
     position: absolute;
     bottom: 230px;
@@ -48,17 +48,18 @@
     background: #d4d1d1 !important;
     
   }
-  .decode-text {
-    margin-bottom: 80px !important;
-
+  
+  
+  #SocialMedia{
+    width: 500px !important;
+    margin-right: 50px;
   }
-
 }
 
 html { 
   overflow-y: hidden !important;
   overflow-x: hidden !important;
-  background: url(2.jpeg) no-repeat center center fixed; 
+ 
   
   
   -webkit-overflow-scrolling: auto;
