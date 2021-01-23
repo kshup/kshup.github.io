@@ -34,6 +34,7 @@
     position: absolute;
     bottom: 230px;
     
+    
   }
   .space {
     display: inline-block;
@@ -266,9 +267,6 @@ ul li:nth-child(5):hover span{
   left: 20px;
   cursor: pointer;
 }
-
-
-
 
 
 
