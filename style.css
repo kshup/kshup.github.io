@@ -193,7 +193,7 @@ ul li:nth-child(5):hover span{
 .social{
     position: relative;
     top: 100%;
-    margin-left: 55px;
+    left: 35px;
 }
 #textBody {
     text-align: center;
