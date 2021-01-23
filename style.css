@@ -29,10 +29,11 @@
     width: 400px !important;
     font-size: 20px !important;
     text-align: center !important;
-    margin-left: 55px !important;
+    margin-left: 53px !important;
     margin-bottom: 75px !important;
     position: absolute;
     bottom: 230px;
+
     
     
   }
@@ -267,6 +268,9 @@ ul li:nth-child(5):hover span{
   left: 20px;
   cursor: pointer;
 }
+
+
+
 
 
 
