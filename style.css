@@ -5,7 +5,10 @@
     
       overflow-y: hidden !important;
       overflow-x: hidden !important;
-    
+  
+  }
+  body {
+    top: 20;
   }
   h1{
     font-size: 40px !important ;
@@ -24,6 +27,7 @@
 
   .text{
     margin-bottom: 70px !important;
+    font-weight: 200 !important;
   }
   .decode-text {
     width: 400px !important;
