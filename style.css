@@ -32,7 +32,7 @@
     margin-left: 73px !important;
     margin-bottom: 75px !important;
     position: absolute;
-    bottom: 230px;
+    bottom: 390px;
 
     
     
@@ -42,12 +42,12 @@
     width: 10px;
   }
   .text-animation.state-3 {
-    color: #21c03c !important;
+    color: white;
   }
   .text-animation:before {
  
     
-    background: #d4d1d1 !important;
+    background: linear-gradient(90deg, #fda582, #000, #fda582) !important;
     
   }
   
@@ -80,10 +80,14 @@ body{
   overflow-y: hidden !important;
   overflow-x: hidden !important;
   position: absolute;
-  background: url(2.jpeg) no-repeat center center fixed; 
+  background: url(MARS.jpg) no-repeat center center fixed; 
+  
+  
+
+  
   width: 100%;
   height: 100%;
-  top: 0%;
+  top: 7%;
   left: 0px;
   content: '';
   -webkit-background-size: cover;
@@ -194,7 +198,7 @@ ul li:nth-child(5):hover span{
 .social{
     position: relative;
     top: 100%;
-    left: 55px;
+    left: 65px;
 }
 #textBody {
     text-align: center;
@@ -216,7 +220,7 @@ ul li:nth-child(5):hover span{
   color: #d4d1d1;
 }
 .dud {
-  color: #21c03c;
+  color: #fda582;
 }
 
 
@@ -244,7 +248,7 @@ ul li:nth-child(5):hover span{
   position: absolute;
   top: 50%;
   left: 50%;
-  background: #21c03c;
+  background: linear-gradient(90deg, #fda582, #000, #fda582);
   width: 0;
   height: 1.2em;
   -webkit-transform: translate(-50%, -55%);
@@ -270,4 +274,37 @@ ul li:nth-child(5):hover span{
   cursor: pointer;
 }
 
+.curios{
+  width: 300px;
+  height: 30px;
+  
+  margin-top: 130px;
+  margin-left: 145px;
+}
+
+
+
+p {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #fd6930, #fff, #fd6930);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 6s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
 
