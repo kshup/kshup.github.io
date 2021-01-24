@@ -215,9 +215,10 @@ ul li:nth-child(5):hover span{
 
 
 .text {
-  font-weight: 100;
+  font-weight: bold;
   font-size: 28px;
-  color: #d4d1d1;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #fda582;
 }
 .dud {
   color: #fda582;
