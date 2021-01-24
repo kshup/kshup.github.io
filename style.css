@@ -28,6 +28,7 @@
   .text{
     margin-bottom: 70px !important;
     font-weight: 200 !important;
+    text-shadow: 2px 2px 5px #fda582 !important;
   }
   .decode-text {
     width: 400px !important;
