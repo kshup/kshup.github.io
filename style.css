@@ -42,6 +42,10 @@
     
     
   }
+  .glitch{
+    left: 12% !important;
+    color: white !important;
+  }
   .space {
     display: inline-block;
     width: 10px;
