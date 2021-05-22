@@ -24,6 +24,9 @@
     
    
   }
+  .pswp__preloader__icn{
+    margin-left: 120px !important;
+  }
 
   .text{
     margin-bottom: 70px !important;
@@ -307,7 +310,7 @@ p {
   background-size: 80%;
   animation: animate 6s linear infinite;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-text-fill-color: rgba(10, 10, 10, 0);
 }
 
 @keyframes animate {
