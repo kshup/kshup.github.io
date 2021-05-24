@@ -329,7 +329,7 @@ p {
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 6s linear infinite;
-  -webkit-background-clip: text;
+
   -webkit-text-fill-color: rgba(10, 10, 10, 0);
 }
 
@@ -341,4 +341,5 @@ p {
     background-position: 500%;
   }
 }
+
 
