@@ -12,7 +12,7 @@
   }
   h1{
     font-size: 40px !important ;
-    color:#02d5e4 !important;
+    color:#fffb00 !important;
     margin-bottom: 20px;
   }
   ul li {
@@ -31,7 +31,7 @@
   .text{
     margin-bottom: 70px !important;
     font-weight: 200 !important;
-    text-shadow: 2px 2px 5px #02d5e4 !important;
+    text-shadow: 2px 2px 5px #fffb00 !important;
     width: 65% !important;
     font-size: 25px !important;
     
@@ -64,7 +64,7 @@
   .text-animation:before {
  
     
-    background: linear-gradient(90deg, #02d5e4, rgb(255, 255, 255), #02d5e4) !important;
+    background: linear-gradient(90deg, #fffb00, rgb(207, 23, 23), #fffb00) !important;
     
   }
   #textBody{
@@ -99,7 +99,7 @@ body{
   overflow-y: hidden !important;
   overflow-x: hidden !important;
   position: absolute;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) !important;
+  background: radial-gradient(ellipse at bottom, #800808 0%, #090a0f 100%) !important;
   
   
 
@@ -238,7 +238,7 @@ ul li:nth-child(5):hover span{
   font-weight: bold;
   font-size: 28px;
   color: #ffffff;
-  text-shadow: 2px 2px 5px#00f5fd;
+  text-shadow: 2px 2px 5px#fffb00;
   
   width: 400px;
   left: 18%;
@@ -247,7 +247,7 @@ ul li:nth-child(5):hover span{
   
 }
 .dud {
-  color: #02d5e4;
+  color: rgba(255, 238, 0, 0.767);
   
 }
 
@@ -282,7 +282,7 @@ ul li:nth-child(5):hover span{
   position: absolute;
   top: 50%;
   left: 50%;
-  background: linear-gradient(90deg, #02d5e4, rgb(255, 255, 255), #02d5e4);
+  background: linear-gradient(90deg, #fffb00, rgb(207, 23, 23), #fffb00);
   width: 0;
   height: 1.2em;
   -webkit-transform: translate(-50%, -55%);
@@ -325,7 +325,7 @@ p {
   font-size: 12px;
   letter-spacing: 2px;
   overflow: hidden;
-  background: linear-gradient(90deg, #02d5e4, #fff, #02d5e4);
+  background: linear-gradient(90deg, #fffb00, rgb(255, 255, 255), #fffb00);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 6s linear infinite;
